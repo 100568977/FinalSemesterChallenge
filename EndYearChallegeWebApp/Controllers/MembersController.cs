@@ -10,6 +10,7 @@ using EndYearChallegeWebApp.Models;
 
 namespace EndYearChallegeWebApp.Controllers
 {
+    [Authorize]
     public class MembersController : Controller
     {
         private EndYearChallengeMainDBEntities1 db = new EndYearChallengeMainDBEntities1();

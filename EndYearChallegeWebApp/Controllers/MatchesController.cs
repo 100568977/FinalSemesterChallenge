@@ -10,6 +10,7 @@ using EndYearChallegeWebApp.Models;
 
 namespace EndYearChallegeWebApp.Controllers
 {
+    [Authorize]
     public class MatchesController : Controller
     {
         private EndYearChallengeMainDBEntities1 db = new EndYearChallengeMainDBEntities1();
